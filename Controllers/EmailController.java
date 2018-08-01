@@ -15,8 +15,7 @@ public class EmailController extends MultiActionController
 
 	private static String	host	= "smtp.gmail.com";
 	private static String	port	= "587";
-	private static String	user	= "hemshah.nmims@gmail.com";
-	private static String	pass	= "hem271094";
+
 
 	public ModelAndView doGetEmployerEmailView(HttpServletRequest request, HttpServletResponse response)
 	{
